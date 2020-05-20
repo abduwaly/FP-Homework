@@ -17,6 +17,7 @@ public class App {
             if (input.equals("exit")) break;
 
             BigDecimal result = calculator.apply(new BigDecimal(input));
+
             System.out.println("final price: " + result);
             System.out.print("input listing price: ");
         }
